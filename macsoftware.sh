@@ -9,7 +9,6 @@ taps=(
 packages=(
   ag
   ansible
-  clojure
   cmake
   ctags
   exiftool
@@ -18,6 +17,7 @@ packages=(
   go
   "graphviz --with-app --with-bindings --universal"
   htop-osx
+  "imagemagick --with-fftw --with-wepb --with-jp2 --with-pango"
   leiningen
   "macvim --override-system-vim"
   mercurial
@@ -46,21 +46,12 @@ cask_packages=(
   quicklook-csv
   quicklook-json
 
-  adobe-creative-cloud
-  alfred
-  google-chrome
   flux
   hazel
   handbrake
   handbrakecli
   iterm2
   launchrocket
-  little-snitch
-  mplayerx
-  omnifocus
-  onepassword
-  skype
-  spotify
   vagrant
   virtualbox
 
