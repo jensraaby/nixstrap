@@ -8,11 +8,6 @@ mydf=$HOME/Projects/jensraaby/dotfiles
 mydfrepo=https://github.com/jensraaby/dotfiles.git
 tbdf=$HOME/Projects/thoughtbot/dotfiles
 
-# install zsh and git with brew to override builtins...
-brew install zsh git
-brew tap thoughtbot/formulae
-brew install rcm
-
 # change default shell to zsh if not currently using:
 echo "Current shell is $SHELL"
 if [ "/bin/zsh" !=  "$SHELL" ]; then
