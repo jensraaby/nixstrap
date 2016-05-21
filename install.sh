@@ -10,11 +10,10 @@ brew tap thoughtbot/formulae
 brew install rcm
 
 # Install Caskroom
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 
 # Update things
 brew update
 brew cleanup
 
 #TODO: Any other OS X things to install outside of configuration and brew programme
-
